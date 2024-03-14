@@ -1,0 +1,84 @@
+
+body{
+    background:linear-gradient(90deg,#723EE4,#3998AD,#0BE182 );
+    overflow: hidden;
+}
+
+input{
+    position:relative;
+    left:10px;
+    top:100px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #3998AD;
+    
+}
+div{
+ 
+  background-color: rgb(234, 17, 122);
+  height: 650px;
+  overflow: hidden;
+  width: 800px;
+  position: relative;
+  left:350px;
+  top:50px;
+  border-radius: 30px;
+}
+button{
+    position:relative;
+    left:-100px;
+    top:150px;
+    height: 40px;
+    width:53px;
+    border-radius: 5px;
+    border-style: solid;
+    background-color:rgb(255, 242, 0);
+    border-color:rgb(255, 242, 0) ;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.419) ;
+    cursor: pointer;
+    z-index: 1;
+}
+button:active{
+    box-shadow: none;
+}
+p{
+    position:relative;
+    left:200px;
+    top:170px;
+    font-family: cursive;
+}
+input::placeholder{
+    font-family: cursive;
+      position: relative;
+      left:30px;
+      font-size:15px;
+}
+h1{
+    position:relative;
+    left:270px;  
+}
+h2{
+    position:relative;
+    left:240px;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:burlywood;
+}
+h3{
+    font-family:cursive;
+    color:rgb(254, 233, 5)
+}
+marquee{
+    position:relative;
+    left:250px;
+    width: 300px;
+    height: 40px;
+}
+.top{
+    position: relative;
+    left:500px;
+    top:-10px;
+}
+.p{
+    color:rgb(133, 212, 15);
+}
